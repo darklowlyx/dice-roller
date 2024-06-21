@@ -1,8 +1,13 @@
 @import "nullstyle.css";
 
+:root{
+	--black: #101010;
+	--white: #f0f0f0;
+}
+
 * {
-	background-color: #000;
-	color: #ffdf00;
+	background-color: var(--black);
+	color: var(--white);
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	text-align: center;
 }
@@ -23,7 +28,7 @@ label {
 	margin-bottom: 1.25rem;
 }
 input {
-	border: 0.125rem solid #ffdf00;
+	border: 0.125rem solid var(--white);
 	border-radius: 0.3125rem;
 	outline: 0;
 	font-size: 1.5rem;
@@ -33,11 +38,11 @@ input {
 }
 input:focus {
 	box-shadow:
-		inset 0rem 0rem 0.625rem #ffdf00,
-		0rem 0rem 0.625rem #ffdf00;
+		inset 0rem 0rem 0.625rem var(--white),
+		0rem 0rem 0.625rem var(--white);
 }
 .lite-button {
-	border: 0.125rem solid #ffdf00;
+	border: 0.125rem solid var(--white);
 	text-transform: uppercase;
 	font-weight: 500;
 	padding: 0.625rem 1.5625rem;
@@ -46,8 +51,8 @@ input:focus {
 	margin-bottom: 1.25rem;
 }
 .lite-button:hover {
-	background-color: #ffdf00;
-	color: #000;
+	background-color: var(--white);
+	color: var(--black);
 }
 img {
 	width: 6.25rem;
