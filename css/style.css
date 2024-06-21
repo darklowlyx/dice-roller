@@ -8,7 +8,7 @@
 * {
 	background-color: var(--black);
 	color: var(--white);
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Archivo Black", Arial, sans-serif;
 	text-align: center;
 }
 #container {
